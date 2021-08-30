@@ -1,0 +1,91 @@
+
+html
+{
+   background-image:url(img/tNp2cK.jpg);
+   background-size: 2160px;
+}
+.vertical-align {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100vh;
+  width: 100vw;
+}
+  .container{
+    width: 500px;
+    height: fit-content;
+    margin: 0 auto;
+    background-color:white;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    border-radius: 3px;
+  }
+  .avatar
+  {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  }
+
+  form input[type="button"] {
+    color: #ffffff;
+    background-color: darkorchid;
+    border: 0px;
+    border-radius: 2px;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 25px;
+  }
+  form input[type="button"]:hover {
+      background-color: black;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      -webkit-box-shadow: 5px 7px 18px -3px rgba(192,192,192,1);
+      -moz-box-shadow: 5px 7px 18px -3px rgba(192,192,192,1);
+          box-shadow: 5px 7px 18px -3px rgba(192,192,192,1);
+  transform: scale(1.05,1.05);
+  background-color:black;
+  border-top: 1px solid #b6fcd5;
+  border-left: 1px solid #b6fcd5;
+  border-bottom: 1px solid #6dc066;
+  border-right: 1px solid #6dc066;
+      cursor: pointer;
+  }
+  form input[type="button"]:active{
+    background-color: darkgrey;
+  }
+  p{
+    font-size: 15px;
+    color: crimson;
+  }
+  form input[type="text"], form input[type="password"] {
+      padding: 10px 10px;
+      border: 0;
+      border-radius: 2px;
+      background-color:whitesmoke;
+      margin: 5px 0;
+  }
+  form input[type="text"]:hover, form input[type="password"]:hover, form input[type="text"]:focus, form input[type="password"]:focus {
+      background-color:whitesmoke;
+  }
+  form input {
+    outline: 0;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    font-size: 18px;
+    color: black;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    font-weight: 300;
+    text-indent: 0px;
+    }
+    form input[type="text"]:hover,form input[type="password"]:hover{
+      text-indent: 10px;
+      background-color: rgba(255, 255, 255, 0.3);
+    }

@@ -1,0 +1,5 @@
+export const actionTypes = {
+	SET_FRIEND_LIST: "SET_FRIEND_LIST",
+	SET_FRIEND_MODE: "SET_FRIEND_MODE",
+	SET_KEYWORD: "SET_KEYWORD",
+}

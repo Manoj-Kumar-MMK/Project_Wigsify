@@ -1,0 +1,4 @@
+export const actionTypes = {
+	SET_FOLLOWERS: "SET_FOLLOWERS",
+	SET_CURRENT_CHAT: "SET_CURRENT_CHAT",
+}

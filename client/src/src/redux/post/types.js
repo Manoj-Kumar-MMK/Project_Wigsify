@@ -1,0 +1,5 @@
+export const actionTypes = {
+	SET_POSTS: "SET_POSTS",
+	SET_POST_MODE: "SET_POST_MODE",
+	SET_EDITING_POST: "SET_EDITING_POST",
+}
